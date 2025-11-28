@@ -1,4 +1,3 @@
-//your JS code here. If required.
 // Get reference to the table body
 const output = document.getElementById("output");
 
