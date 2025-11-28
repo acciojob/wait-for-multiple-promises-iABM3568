@@ -1,8 +1,8 @@
 // Get reference to the table body
 const output = document.getElementById("output");
 
-// Step 1: Show "Loading..." message initially
-output.innerHTML = '<tr><td colspan="2">Loading...</td></tr>';
+// Step 1: Show "Loading..." message initially with id="loading"
+output.innerHTML = '<tr id="loading"><td colspan="2">Loading...</td></tr>';
 
 // Step 2: Create a function that returns a promise that resolves after random time
 function createPromise(promiseName) {
